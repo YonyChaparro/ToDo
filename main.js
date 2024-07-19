@@ -31,6 +31,7 @@ const items = ['Tarea1', 'Tarea2', 'Tarea3'];
 
 for (const item of items) {
     const li = document.createElement('li');
+    li.id = 'li';
     li.textContent = item;
     ul.appendChild(li);
 }

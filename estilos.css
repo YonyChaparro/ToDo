@@ -1,12 +1,26 @@
+
+h1{
+font-family: "Roboto Mono", monospace;
+}
+h3{
+    font-family: "Roboto Mono", monospace;
+}
+
 .mi-contenedor {
     text-align: center;
+    background-color: beige;
 }
 
 .mi-contenedor #botonAgregar {
 }
 
 .mi-contenedor #listaTareas{
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+li {
+    font-family: "Roboto Mono", monospace;
 }
