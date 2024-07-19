@@ -1,0 +1,12 @@
+.mi-contenedor {
+    text-align: center;
+}
+
+.mi-contenedor #botonAgregar {
+}
+
+.mi-contenedor #listaTareas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
