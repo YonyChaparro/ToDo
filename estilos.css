@@ -1,8 +1,12 @@
 
 h1{
-font-family: "Roboto Mono", monospace;
+    font-family: "Roboto Mono", monospace;
 }
 h3{
+    font-family: "Roboto Mono", monospace;
+}
+
+button{
     font-family: "Roboto Mono", monospace;
 }
 
@@ -21,6 +25,17 @@ h3{
     justify-content: center;
 }
 
-li {
-    font-family: "Roboto Mono", monospace;
+
+ul {
+    list-style: none; /* Elimina todas las viñetas de la lista */
 }
+
+  li {
+    font-family: "Roboto Mono", monospace;
+    background-color:burlywood;
+}
+
+.mi-contenedor #textoTachado{
+    text-decoration: line-through;
+}
+
