@@ -1,6 +1,11 @@
 
+body{
+    background-color:cadetblue;
+}
+
 h1{
     font-family: "Roboto Mono", monospace;
+    padding-top: 50px;
 }
 h3{
     font-family: "Roboto Mono", monospace;
@@ -8,34 +13,52 @@ h3{
 
 button{
     font-family: "Roboto Mono", monospace;
+    margin: 20px;
+}
+
+#mi-entrada-de-texto{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .mi-contenedor {
     text-align: center;
     background-color: beige;
+    margin: 250px;
+    border-radius: 30px;
+}
+
+.mi-contenedor input {
 }
 
 .mi-contenedor #botonAgregar {
 }
 
 .mi-contenedor #listaTareas{
-    background-color: aqua;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 
 ul {
     list-style: none; /* Elimina todas las viñetas de la lista */
+    padding: 50px;
 }
 
-  li {
+li {
     font-family: "Roboto Mono", monospace;
     background-color:burlywood;
+    list-style: none;
+    margin: 0;
 }
 
 .mi-contenedor #textoTachado{
     text-decoration: line-through;
+}
+
+hr{
+    margin: 0
 }
 
